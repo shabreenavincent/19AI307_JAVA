@@ -1,58 +1,89 @@
-# Ex.No:6(A)  INNER CLASS
+Skip to content
+Navigation Menu
+Sign in
+sivaram-R
+/
+19AI307_JAVA
+Public
+forked from Priyasenthil17/19AI307_JAVA
+Code
+Pull requests
+Actions
+Projects
+Security
+Insights
+19AI307_JAVA/Module-07/DAY-1
+/README.md
+sivaram-R
+sivaram-R
+Update README.md
+1dbe9c6
+ · 
+last week
+54 lines (47 loc) · 1.59 KB
+
+Preview
+
+Code
+
+Blame
+# Ex.No:7(A)  EXCEPTION HANDLING-RUN TIME EXCEPTION
 ## AIM:
-To create a Java Program to implement Method Local Inner Class.
+  To Develop a Java Program for handling Arithmetic Exception (division by zero exception) using Exception Handling Mechanism.
 
 ## ALGORITHM :
-1.  Start the Program.
-2.	Define outer class `name`:
--	a) Declare `String name` and initialize it to "Johnson"
--	b) Define inner class `inner`:
-- i) Define method `display()` that prints "Name given in Outer Class is " followed by `name`
-3.	In the `main` method of `name` class:
--	a) Create an instance `obj` of the `name` class
--	b) Create an instance `obj2` of the inner class `inner` using `obj`
--	c) Call `display()` on `obj2` to print the outer class name
-4.	End
+1.  Start the Program
+2.	Import `java.util.*` for input handling
+3.	Define class `Example1`:
+-	a) In `main` method, create `Scanner` object `sc` for input
+4.	Use `try` block to:
+-	a) Read integers `a` and `b` from user input
+-	b) Calculate `res = a / b` and print "Result: " followed by `res`
+5.	Use `catch` block to handle `ArithmeticException`:
+-	a) If division by zero occurs, print "You Shouldn't divide a number by zero"
+6.	End
 
 ## PROGRAM:
  ```
-Program to implement a Inner Class using Java
+
+Program to implement a Exception Handling-Run Time Exception using Java
 Developed by: SHABREENA VINCENT
 RegisterNumber: 212222230141
+
 ```
 
 ## Sourcecode.java:
 ```
-class MethodLocal
-{
-    public String value = "Name given in Outer Class is Johnson";
-    public void display()
+import java.util.Scanner;
+
+public class HelloWorld {
+    public static void main(String[] args)
     {
-        class Inner
-        {
-            public void print()
-            {
-                System.out.println(value);
-            }
-        }
-        Inner obj1 = new Inner();
-        obj1.print();
-    }
-}
-public class Main
-{
-    public static void main(String[]args)
-    {
-        MethodLocal obj = new MethodLocal();
-        obj.display();
+        Scanner sc = new Scanner(System.in);
+           try
+           {
+               int a=sc.nextInt();
+             int b=sc.nextInt();
+             int c=a/b;
+             System.out.println("Result: " +c); 
+           }
+               catch(ArithmeticException e)  
+        {  
+            System.out.println("Arithmetic Exception: Number should not divide by zero");  
+        }  
     }
 }
 ```
 
 ## OUTPUT:
 
-![image](https://github.com/user-attachments/assets/54f24f87-d30a-44de-be17-751733337eae)
-
+![image](https://github.com/user-attachments/assets/caa9da44-0328-4432-a648-6c9b58019dc7)
 
 ## RESULT:
-Thus, the Java Program using Method Local Inner Class was executed successfully.
+Thus the Java Program for handling Arithmetic Exception (division by zero exception) using Exception Handling Mechanism was executed successfully.
+19AI307_JAVA/Module-07/DAY-1/README.md at main · sivaram-R/19AI307_JAVA · GitHub 
+‎Example1‎
+1 ReferenceSearch
+
+‎In this file‎
+3.	Define class `Example1`:
