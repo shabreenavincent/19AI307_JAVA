@@ -52,9 +52,3 @@ public class HelloWorld {
 
 ## RESULT:
 Thus the Java Program for handling Arithmetic Exception (division by zero exception) using Exception Handling Mechanism was executed successfully.
-19AI307_JAVA/Module-07/DAY-1/README.md at main · sivaram-R/19AI307_JAVA · GitHub 
-‎Example1‎
-1 ReferenceSearch
-
-‎In this file‎
-3.	Define class `Example1`:
