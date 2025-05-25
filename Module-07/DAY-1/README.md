@@ -1,32 +1,3 @@
-Skip to content
-Navigation Menu
-Sign in
-sivaram-R
-/
-19AI307_JAVA
-Public
-forked from Priyasenthil17/19AI307_JAVA
-Code
-Pull requests
-Actions
-Projects
-Security
-Insights
-19AI307_JAVA/Module-07/DAY-1
-/README.md
-sivaram-R
-sivaram-R
-Update README.md
-1dbe9c6
- · 
-last week
-54 lines (47 loc) · 1.59 KB
-
-Preview
-
-Code
-
-Blame
 # Ex.No:7(A)  EXCEPTION HANDLING-RUN TIME EXCEPTION
 ## AIM:
   To Develop a Java Program for handling Arithmetic Exception (division by zero exception) using Exception Handling Mechanism.
